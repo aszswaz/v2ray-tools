@@ -15,7 +15,7 @@ static void help(const char *command, int code) {
     const char *format = "%8s %s\n";
     printf("Usage: %s [option]\n", command);
     printf(format, "-h", "print help information.");
-    printf(format, "-c", "v2ray configuration file.");
+    printf(format, "-c", "v2ray configuration file. The default value is /etc/v2ray/config.json");
     exit(code);
 }
 

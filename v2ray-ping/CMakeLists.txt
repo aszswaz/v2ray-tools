@@ -24,3 +24,5 @@ if (CURL_FOUND)
     include_directories(${CURL_INCLUDE_DIRS})
     target_link_libraries(${PROJECT_NAME} ${CURL_LIBRARIES})
 endif(CURL_FOUND)
+
+install(TARGETS ${PROJECT_NAME})
