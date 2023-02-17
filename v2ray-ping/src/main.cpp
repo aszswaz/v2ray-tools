@@ -23,7 +23,7 @@ int main(int argc, char *const *argv) {
     try {
         const char *command = argv[0];
         int opt;
-        const char *v2rayConfig = "/etc/v2ray/all-config.json";
+        const char *v2rayConfig = "/etc/v2ray/config.json";
 
         opterr = 0;
 
